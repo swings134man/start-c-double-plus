@@ -1,0 +1,5 @@
+# Idea
+.idea
+
+# build Directory
+cmake-build-debug
