@@ -7,7 +7,7 @@
 
 using namespace std;// namespace 지정 간소화
 
-void dynamic() {
+int dynamic() {
     /**
      * C++ 에서 동적 할당 하는 방법
      * new 연산자 활용 || malloc() 함수 사용.
@@ -16,7 +16,7 @@ void dynamic() {
      */
      // 단순 int
      int *p = new int(0); // 초기값 0
-     if(p == null) {
+     if(p == nullptr) {
         cout << "System Error!" << endl;
         exit(1);
      }
@@ -29,7 +29,7 @@ void dynamic() {
 
      // ------- 배열의 동적 할당
      int *arr = new int[10];
-     if(arr == null){
+     if(arr == nullptr){
          cout << "System Error!" << endl;
          exit(1);
      }
@@ -37,7 +37,7 @@ void dynamic() {
      *arr = 10;
 
      delete[] arr; //메모리 해제
-     arr = null;
+     arr = nullptr;
 
      // --------------------------------- malloc()
     int* dynamicInt = (int*) malloc(sizeof(int));
@@ -49,5 +49,5 @@ void dynamic() {
         free(dynamicInt); // 메모리 해제
     }
 
-    reutrn 0;
+    return 0;
 };
