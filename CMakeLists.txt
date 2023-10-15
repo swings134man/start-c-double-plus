@@ -8,4 +8,5 @@ add_executable(start_c_double_plus main.cpp
         practice/basic/DynamicAllocation.cpp
         practice/basic/Class_3.cpp
         practice/basic/Pointer_ex1.cpp
+        practice/basic/Dynamic_3.cpp
 )
