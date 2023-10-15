@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(start_c_double_plus main.cpp
         firstTest.cpp
         practice/basic/DynamicAllocation.cpp
+        practice/basic/Class_3.cpp
+        practice/basic/Pointer_ex1.cpp
 )
