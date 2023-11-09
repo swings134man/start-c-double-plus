@@ -49,18 +49,18 @@ void swapValue(int& x, int& y) {
 //
 
 // main
-int main() {
-    // Ex1 Call
-    float cTemp = FahrToC(30);
-    cout << "섭씨 온도 = " << cTemp <<endl;
-
-    // ex2 call
-    int f = factorial(3);
-    cout << f << endl;
-
-    // ex3 call
-    int a = 1;
-    int b = 2;
-    if(a < b) swapValue(a, b);
-    cout << "swap value a=" << a << " b=" << b << endl; // a=2, b=1
-}
+//int main() {
+//    // Ex1 Call
+//    float cTemp = FahrToC(30);
+//    cout << "섭씨 온도 = " << cTemp <<endl;
+//
+//    // ex2 call
+//    int f = factorial(3);
+//    cout << f << endl;
+//
+//    // ex3 call
+//    int a = 1;
+//    int b = 2;
+//    if(a < b) swapValue(a, b);
+//    cout << "swap value a=" << a << " b=" << b << endl; // a=2, b=1
+//}
