@@ -13,4 +13,7 @@ add_executable(start_c_double_plus main.cpp
         practice/basic/Class_5.cpp
         practice/header/Counter_1.cpp
         practice/header/Counter_1.h
+        practice/header/person_test/Person.cpp
+        practice/header/person_test/Person.h
+        practice/header/person_test/PersonMain.cpp
 )
