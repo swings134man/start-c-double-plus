@@ -16,6 +16,8 @@ add_executable(start_c_double_plus main.cpp
         practice/header/person_test/Person.cpp
         practice/header/person_test/Person.h
         practice/header/person_test/PersonMain.cpp
-        practice/exam/WmvProgram.cpp
+        practice/exam/Wmv.cpp
         practice/exam/WmvCopyVersion.cpp
+        practice/exam/middle/Wmv.cpp
+        practice/exam/middle/WmvMain.cpp
 )
